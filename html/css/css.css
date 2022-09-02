@@ -412,20 +412,14 @@ header .mo_ham_btn a{
   .swiper-slide div{
       width: 100%;
   }
-
-*/
-.swiper-slide {
-    width: 90% !important;
-    padding: 2.5px;
-  }
-.swiper-slide:nth-child(1n) {
-    margin-left: 10px;
+  .swiper-slide:nth-child(2n) {
+    width: 100%;
   }
 
   .swiper-slide:nth-child(3n) {
-    margin-right: 10px;
+    width: 100%;
   }
-
+*/
 /* ------------------con02_wrap------------------ */
 .con02_wrap{
     display: flex;
@@ -982,7 +976,7 @@ footer .r_mid_foot{
 @media all and (min-width:1280px){
 .logo{z-index: 99; cursor: pointer;}
 .logo a, .mo_on_video a, .txt_banner span, .btn_join{cursor: pointer;}
-img{cursor: pointer;width: auto;}
+img{cursor: pointer;}
 img a{cursor: pointer;}
 .mo_close_btn, .mo_ham_btn{
     display: none !important; 
@@ -1125,7 +1119,6 @@ header{
     top: 300px; left: 100px;
     z-index: 999;
     color: white;
-    display: flex;
 }
 .main_visual .outer_mv{
     width: 100%;
@@ -1190,10 +1183,8 @@ header{
 /* ------------------con01_wrap------------------ */
 .con01_wrap{
     background-image: none;
-    display:flex;
-    justify-content: space-evenly;
 }
-}
+.con01_wrap img{width: auto; height: auto;float: left;}
 .con01_wrap_pc{
     display: block;
     position: absolute;
@@ -1464,4 +1455,5 @@ footer .r_mid_foot{
 
 
 
-/* pc */
+
+}/* pc */
